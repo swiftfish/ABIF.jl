@@ -1,0 +1,16 @@
+name = "ABIF"
+uuid = "bf5b7d60-bebc-11e9-3ab1-ad46e6636002"
+authors = ["BioJulia https://github.com/BioJulia"]
+version = "0.1.0"
+
+[deps]
+BioGenerics = "47718e42-2ac5-11e9-14af-e5595289c2ea"
+BioSequences = "7e6ae17a-c86d-528c-b3b9-7f778a29fe59"
+BioSymbols = "3c28c6f8-a34d-59c4-9654-267d177fcfa9"
+
+[extras]
+FormatSpecimens = "3372ea36-2a1a-11e9-3eb7-996970b6ffbd"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "FormatSpecimens"]
